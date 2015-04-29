@@ -1,0 +1,32 @@
+button {
+  border-radius: 5px;
+  color: white;
+  border: 1px white solid;
+  height: 30px;
+  padding: 10px;
+}
+
+.sign {
+  background: #2487dd;
+}
+
+.register {
+  background: #8e8688;
+}
+
+.email, .pw {
+  border-radius: 5px;
+  border: 1px #aaaaac solid;
+  display: inline-block;
+  width: 150px;
+  height: 30px;
+}
+
+fieldset {
+  border: 1px #aaaaac solid;
+  width: 570px;
+}
+
+.sign:hover, .register:hover {
+  cursor: pointer;
+}
